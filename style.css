@@ -309,6 +309,10 @@ nav {
         z-index: 3;
     }
 
+    .banner-text {
+        margin-top: 5rem;
+    }
+
     .banner-text p {
         font-size: 12pt;
     }
