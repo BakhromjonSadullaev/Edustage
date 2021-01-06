@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+header {
+    overflow-x: hidden;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -269,7 +273,13 @@ nav {
         overflow-x: hidden;
     }
 
+    .container-1 {
+        overflow-x: hidden;
+    }
+
+
     nav {
+
         background-color: #868686;
     }
 
@@ -286,7 +296,7 @@ nav {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
         z-index: 2;
-        overflow-x: hidden;
+
     }
 
     .nav-links li {
@@ -319,6 +329,7 @@ nav {
 
     .banner-text h1 {
         font-size: 15pt;
+        color: red;
     }
 
 
